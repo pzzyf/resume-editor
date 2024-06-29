@@ -1,4 +1,3 @@
-import "./App.css";
 import Head from "./head/head.tsx";
 import Left from "./left/left.tsx";
 import Center from "./center/center.tsx";
