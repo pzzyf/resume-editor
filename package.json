@@ -14,9 +14,12 @@
     "@egoist/tailwindcss-icons": "^1.8.1",
     "ahooks": "^3.8.4",
     "immer": "^10.1.1",
+    "lodash": "^4.17.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "use-immer": "^0.11.0"
+    "react-grid-layout": "^1.5.1",
+    "use-immer": "^0.11.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.22.0",

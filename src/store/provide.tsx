@@ -1,10 +1,11 @@
 import type React from 'react'
 import { createContext } from 'react'
 import { useImmerReducer } from 'use-immer'
+import type { State } from './reducer'
 import { reducer } from './reducer'
 
 export interface ContextProps {
-  state: any
+  state: State
   mode: 'editor' | 'render'
   dispatch: any
 }
@@ -18,6 +19,7 @@ const defaultContext: ContextProps = {
   dispatch: () => void 0,
 }
 
+export type ContextState = ContextProps['state']
 export const AppContext = createContext(defaultContext)
 
 export const AppProvider: React.FC<{ mode: ContextProps['mode'], children: React.ReactNode }> = (props) => {

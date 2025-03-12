@@ -9,13 +9,15 @@ export default function App() {
   const [isRender] = useState(false)
 
   return (
-    <AppProvider mode={isRender ? 'editor' : 'render'}>
-      <Header />
-      <div className="flex">
-        <ControlPanel />
-        <MainPanel />
-        <EditorPanel />
-      </div>
-    </AppProvider>
+    <div className="h-full">
+      <AppProvider mode={isRender ? 'editor' : 'render'}>
+        <Header />
+        <div className="flex">
+          <ControlPanel />
+          <MainPanel />
+          <EditorPanel />
+        </div>
+      </AppProvider>
+    </div>
   )
 }
