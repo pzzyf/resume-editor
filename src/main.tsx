@@ -4,11 +4,7 @@ import ReactDOM from 'react-dom/client'
 import './styles/global.css'
 import './styles/tailwind.css'
 
-function App() {
-  return (
-    <div>123</div>
-  )
-}
+import App from './App'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
