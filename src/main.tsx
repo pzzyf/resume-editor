@@ -6,9 +6,12 @@ import './styles/tailwind.css'
 
 import App from './App'
 import { image } from './modules/image'
+import { blank } from './modules/blank'
+import { richText } from './modules/text'
+
 import { register } from './utils/loader'
 
-register(image)
+register(image, blank, richText)
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>

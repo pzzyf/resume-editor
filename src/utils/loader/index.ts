@@ -2,6 +2,12 @@ import type { LocalComponent } from '@/types/components'
 
 export const components: LocalComponent[] = []
 
+declare global {
+  interface Window {
+    store: Record<string, LocalComponent>
+  }
+}
+
 window.store = window.store ? window.store : {}
 
 export function register(...registerComponents: LocalComponent[]) {

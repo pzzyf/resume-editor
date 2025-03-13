@@ -18,18 +18,18 @@ type PureLocalComponent = LocalComponentMap[keyof LocalComponentMap]
 type PureRemoteComponent = RemoteComponentMap[keyof RemoteComponentMap]
 
 export interface Panel {
-  control: {
+  control?: {
     icon: JSX.Element
     name: string
     getConfig: () => LocalComponentConfig
   } // 组件面板
-  main: React.FC<{
+  main?: React.FC<{
     dispatch: any
     instance: LocalComponentConfig
     isRender: boolean
     [key: string]: unknown
   }> // 主面板
-  editor: React.FC<{
+  editor?: React.FC<{
     state: ContextState
     dispatch: any
     [key: string]: unknown
@@ -42,6 +42,7 @@ export type EditorPanelFC = Panel['editor']
 export type LocalComponent = PureLocalComponent & {
   module: Panel
 }
+
 export type RemoteComponent = PureRemoteComponent & {
   url: string
 }
