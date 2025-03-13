@@ -4,7 +4,13 @@ import { dynamicIconsPlugin, getIconCollections, iconsPlugin } from '@egoist/tai
 export default {
   darkMode: ['class'],
   content: ['./src/**/*.{jsx,tsx}'],
-  theme: {},
+  theme: {
+    extend: {
+      height: {
+        'screen-50': 'calc(100% - 50px)',
+      },
+    },
+  },
   plugins: [
     iconsPlugin({
       // Select the icon collections you want to use

@@ -1,6 +1,6 @@
 function EditorPanel() {
   return (
-    <div>
+    <div className="w-[260px]">
       EditorPanel
     </div>
   )

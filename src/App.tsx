@@ -16,7 +16,7 @@ export default function App() {
     <div className="h-full">
       <AppProvider mode={isRender ? 'editor' : 'render'}>
         <Header exportPDF={exportPDF} />
-        <div className="flex">
+        <div className="flex h-screen-50 w-full overflow-auto">
           <ControlPanel />
           <MainPanel />
           <EditorPanel />
