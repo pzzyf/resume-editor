@@ -11,6 +11,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@arco-design/web-react": "^2.65.0",
     "@egoist/tailwindcss-icons": "^1.8.1",
     "ahooks": "^3.8.4",
     "immer": "^10.1.1",

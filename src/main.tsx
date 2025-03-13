@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 import './styles/global.css'
 import './styles/tailwind.css'
+import '@arco-design/web-react/dist/css/arco.css'
 
 import App from './App'
 import { image } from './modules/image'

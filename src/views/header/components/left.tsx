@@ -8,7 +8,22 @@ function Left() {
       {
         controls.map((item, index) => {
           return (
-            <div key={index}>{item.icon}</div>
+            <div
+              className="
+                ml-[10px]
+                flex
+                size-[23px]
+                cursor-pointer
+                items-center
+                justify-center
+                p-[3px]
+                text-[18px]
+                hover:bg-gray-200
+                "
+              key={index}
+            >
+              {item.icon}
+            </div>
           )
         })
       }

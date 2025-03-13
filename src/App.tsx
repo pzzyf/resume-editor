@@ -8,10 +8,14 @@ import { EditorPanel } from './views/editor-panel'
 export default function App() {
   const [isRender] = useState(false)
 
+  function exportPDF() {
+    console.log(123)
+  }
+
   return (
     <div className="h-full">
       <AppProvider mode={isRender ? 'editor' : 'render'}>
-        <Header />
+        <Header exportPDF={exportPDF} />
         <div className="flex">
           <ControlPanel />
           <MainPanel />

@@ -1,7 +1,7 @@
 import { Left } from './components/left'
 import { Right } from './components/right'
 
-function Header() {
+const Header: React.FC<{ exportPDF: () => void }> = (props) => {
   return (
     <div className="
       box-border
@@ -14,8 +14,9 @@ function Header() {
       px-[10px]"
     >
       <Left />
-      <Right />
+      <Right exportPDF={props.exportPDF} />
     </div>
   )
 }
+
 export { Header }
