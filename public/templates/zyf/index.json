@@ -1,0 +1,1135 @@
+{
+  "children": [
+    {
+      "id": "4416991",
+      "config": {
+        "layout": {
+          "w": 54,
+          "h": 28,
+          "x": 3,
+          "y": 92,
+          "i": "4416991",
+          "minW": 4,
+          "minH": 2,
+          "moved": true,
+          "static": false,
+          "isDraggable": true,
+          "isResizable": true
+        },
+        "observeResize": true
+      },
+      "style": {},
+      "props": {
+        "text": [
+          {
+            "children": [
+              {
+                "text": "开源经历",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 19,
+                  "color": "rgb(var(--blue-6))"
+                }
+              }
+            ],
+            "align": "left",
+            "line-height": 1.5
+          },
+          {
+            "dividing-line": true,
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "children": [
+              {
+                "text": "vue-vben-admin",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 15
+                },
+                "link": {
+                  "href": "https://github.com/vbenjs/vue-vben-admin",
+                  "blank": true
+                }
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "                              "
+              }
+            ],
+            "line-height": 1.7
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "unordered-list": true,
+                "children": [
+                  {
+                    "unordered-list-item": {
+                      "level": 1
+                    },
+                    "line-height": 1.2,
+                    "children": [
+                      {
+                        "font-base": {
+                          "fontSize": 12
+                        },
+                        "text": "修复Bug、增强Ts类型、优化工程配置、优化工程配置、补充测试用例"
+                      }
+                    ]
+                  },
+                  {
+                    "unordered-list-item": {
+                      "level": 1
+                    },
+                    "line-height": 1.2,
+                    "children": [
+                      {
+                        "font-base": {
+                          "fontSize": 12
+                        },
+                        "text": "负责vscode配置相关文件的开发如：配置launch.json,使其支持ide调试"
+                      }
+                    ]
+                  },
+                  {
+                    "unordered-list": true,
+                    "children": [
+                      {
+                        "unordered-list": true,
+                        "children": [
+                          {
+                            "unordered-list-item": {
+                              "level": 1
+                            },
+                            "line-height": 1.2,
+                            "children": [
+                              {
+                                "font-base": {
+                                  "fontSize": 12
+                                },
+                                "text": "参与文档的部分开发，文档的编写"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "line-height": 1.2,
+                        "children": [
+                          {
+                            "font-base": {
+                              "fontSize": 12
+                            },
+                            "text": ""
+                          }
+                        ]
+                      },
+                      {
+                        "children": [
+                          {
+                            "bold": true,
+                            "font-base": {
+                              "fontSize": 15
+                            },
+                            "text": "Vexip UI",
+                            "link": {
+                              "href": "https://github.com/vexip-ui/vexip-ui",
+                              "blank": true
+                            }
+                          },
+                          {
+                            "bold": true,
+                            "font-base": {
+                              "fontSize": 12
+                            },
+                            "text": " ",
+                            "link": {
+                              "href": "https://github.com/vexip-ui/vexip-ui",
+                              "blank": true
+                            }
+                          },
+                          {
+                            "bold": true,
+                            "font-base": {
+                              "fontSize": 12
+                            },
+                            "text": "                             "
+                          }
+                        ],
+                        "line-height": 1.7
+                      },
+                      {
+                        "unordered-list": true,
+                        "children": [
+                          {
+                            "unordered-list": true,
+                            "children": [
+                              {
+                                "unordered-list-item": {
+                                  "level": 1
+                                },
+                                "line-height": 1.2,
+                                "children": [
+                                  {
+                                    "font-base": {
+                                      "fontSize": 12
+                                    },
+                                    "text": "负责 Vexip 官网的重构迁移至 Vitepress"
+                                  }
+                                ]
+                              },
+                              {
+                                "unordered-list-item": {
+                                  "level": 1
+                                },
+                                "line-height": 1.2,
+                                "children": [
+                                  {
+                                    "font-base": {
+                                      "fontSize": 12
+                                    },
+                                    "text": "参与新组件/功能的开发和预研、负责 @vexip-ui/meta 的数据包开发"
+                                  }
+                                ]
+                              },
+                              {
+                                "unordered-list": true,
+                                "children": [
+                                  {
+                                    "unordered-list": true,
+                                    "children": [
+                                      {
+                                        "unordered-list-item": {
+                                          "level": 1
+                                        },
+                                        "line-height": 1.2,
+                                        "children": [
+                                          {
+                                            "font-base": {
+                                              "fontSize": 12
+                                            },
+                                            "text": "负责官网新特性添加如: 切换主题、局内搜索等功能"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "children": [],
+      "name": "rich-text"
+    },
+    {
+      "id": "3f038e1",
+      "config": {
+        "layout": {
+          "w": 54,
+          "h": 32,
+          "x": 3,
+          "y": 135,
+          "i": "3f038e1",
+          "minW": 4,
+          "minH": 2,
+          "moved": true,
+          "static": false,
+          "isDraggable": true,
+          "isResizable": true
+        },
+        "observeResize": true
+      },
+      "style": {},
+      "props": {
+        "text": [
+          {
+            "children": [
+              {
+                "text": "技能清单",
+                "font-base": {
+                  "color": "rgb(var(--blue-6))",
+                  "fontSize": 19
+                },
+                "bold": true
+              }
+            ],
+            "line-height": 1.5
+          },
+          {
+            "dividing-line": true,
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "熟悉响应式布局、flex 弹性布局、百分比布局等布局，熟悉 css 预处理器"
+                  }
+                ],
+                "unordered-list-item": {
+                  "level": 1
+                }
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "熟悉 javascript，熟悉 typescript，熟悉 ES6、ES7-ES12 相关生态大部分特性的使用方法和场景，熟悉 w3c 标准"
+                  }
+                ],
+                "unordered-list-item": {
+                  "level": 1
+                }
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "熟悉主流框架 Vue 及其部分原理，熟悉 Vue 周边生态，熟悉 Pinia，Vue-router 等技术栈的使用，能够使用vue2 + javascript，vue3 + typescript(javascript)完成日常需求，能够熟练封装公共组件，有丰富的 Vue + Typescript 项目实践"
+                  }
+                ],
+                "unordered-list-item": {
+                  "level": 1
+                }
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "熟悉主流框架React，能够基于vite等脚手架开发react项目"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "了解前端性能优化，例如代码优化、打包优化、资源优化，能结合实际业务场景进行优化"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "了解Git基本命令行使用，有开源库pr/mr经历，给element-plus、vben等大型开源项目提过 pr"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "了解 prettier / eslint 基本配置，有良好的编码习惯、对不规范的代码容忍度低"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "了解 Pnpm + Monorepo 的仓库管理，能够对多个项目进行解耦和逻辑服用"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "了解Webpack/Vite等打包工具的基本配置及其部分原理。熟悉常用的loader、Plugin配置编写，能够对 Vite 进行二次封装，能够基于这些工具搭建常用的开发环境"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "children": [],
+      "name": "rich-text"
+    },
+    {
+      "id": "1f83f",
+      "config": {
+        "layout": {
+          "w": 54,
+          "h": 17,
+          "x": 3,
+          "y": 3,
+          "i": "1f83f",
+          "minW": 4,
+          "minH": 2,
+          "moved": false,
+          "static": false,
+          "isDraggable": true,
+          "isResizable": true
+        },
+        "observeResize": true
+      },
+      "style": {},
+      "props": {
+        "text": [
+          {
+            "children": [
+              {
+                "text": "个人简介",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 19,
+                  "color": "rgb(var(--blue-6))"
+                }
+              }
+            ],
+            "align": "left",
+            "line-height": 1.5
+          },
+          {
+            "dividing-line": true,
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "align": "left",
+            "line-height": 1.9,
+            "children": [
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 16
+                },
+                "text": "朱云飞  "
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": " "
+              },
+              {
+                "text": "24岁 | 本科 ",
+                "font-base": {
+                  "fontSize": 12
+                }
+              }
+            ]
+          },
+          {
+            "align": "left",
+            "children": [
+              {
+                "text": "联系方式: ",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                }
+              },
+              {
+                "text": "17325672494 | 2279948211@qq.com",
+                "font-base": {
+                  "fontSize": 12
+                }
+              }
+            ],
+            "line-height": 1.9
+          },
+          {
+            "align": "justify",
+            "children": [
+              {
+                "text": "Blog: ",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                }
+              },
+              {
+                "text": "https://afe1-blog.vercel.app",
+                "font-base": {
+                  "fontSize": 12
+                },
+                "link": {
+                  "href": "https://afe1-blog.vercel.app",
+                  "blank": true
+                }
+              }
+            ],
+            "line-height": 1.5
+          },
+          {
+            "align": "justify",
+            "children": [
+              {
+                "text": "Github: ",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                }
+              },
+              {
+                "text": "https://github.com/pzzyf",
+                "font-base": {
+                  "fontSize": 12
+                },
+                "link": {
+                  "href": "https://github.com/pzzyf",
+                  "blank": true
+                }
+              }
+            ],
+            "line-height": 1.5
+          }
+        ]
+      },
+      "children": [],
+      "name": "rich-text"
+    },
+    {
+      "id": "61691",
+      "config": {
+        "layout": {
+          "w": 54,
+          "h": 8,
+          "x": 3,
+          "y": 123,
+          "i": "61691",
+          "minW": 4,
+          "minH": 2,
+          "moved": true,
+          "static": false,
+          "isDraggable": true,
+          "isResizable": true
+        },
+        "observeResize": true
+      },
+      "style": {},
+      "props": {
+        "text": [
+          {
+            "children": [
+              {
+                "text": "教育经历",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 19,
+                  "color": "rgb(var(--blue-6))"
+                }
+              }
+            ],
+            "align": "left",
+            "line-height": 1.5
+          },
+          {
+            "dividing-line": true,
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "line-height": 1.5,
+            "children": [
+              {
+                "font-base": {
+                  "fontSize": 12
+                },
+                "bold": true,
+                "text": "2019.09-2023.07  华北科技学院   本科   通信工程"
+              }
+            ]
+          }
+        ]
+      },
+      "children": [],
+      "name": "rich-text"
+    },
+    {
+      "id": "c398b5d6-3839-4886-8fce-93cecf2c128d",
+      "config": {
+        "layout": {
+          "w": 54,
+          "h": 66,
+          "x": 3,
+          "y": 23,
+          "i": "c398b5d6-3839-4886-8fce-93cecf2c128d",
+          "minW": 4,
+          "minH": 2,
+          "moved": true,
+          "static": false,
+          "isDraggable": true,
+          "isResizable": true
+        },
+        "observeResize": true
+      },
+      "style": {},
+      "props": {
+        "text": [
+          {
+            "children": [
+              {
+                "text": "工作经历",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 19,
+                  "color": "rgb(var(--blue-6))"
+                }
+              }
+            ],
+            "align": "left",
+            "line-height": 1.3
+          },
+          {
+            "dividing-line": true,
+            "children": [
+              {
+                "text": ""
+              }
+            ]
+          },
+          {
+            "align": "justify",
+            "line-height": 1.4,
+            "children": [
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 15
+                },
+                "text": "南京嗯哇科技有限公司     "
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "前端开发工程师 ",
+                "italic": true
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "                                                                                                               2024.02 - 2025.02"
+              }
+            ]
+          },
+          {
+            "align": "justify",
+            "line-height": 1.4,
+            "children": [
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "项目：nwow自研saas平台"
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "主要负责审批流程，进销存平台，收银平台三大模块开发，项目初期框架搭建到项目上线"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "在项目上线之后持续迭代，并对客户进行产品培训，解答疑惑"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "制定团队代码规范、git 操作规范、推动部门执行和遵寻"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "清理技术 bug，进行代码 code review，删除冗余代码，封装多个组件"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "align": "justify",
+            "line-height": 1.3,
+            "children": [
+              {
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": ""
+              }
+            ]
+          },
+          {
+            "align": "justify",
+            "line-height": 1.4,
+            "children": [
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 15
+                },
+                "text": "南瑞信通集团     "
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "前端开发工程师                                                                                                                                   ",
+                "italic": true
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "2023.06 - 2024.01"
+              }
+            ]
+          },
+          {
+            "align": "justify",
+            "line-height": 1.4,
+            "children": [
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "项目：变电综合检修管理"
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "主要负责变电相关业务需求、响应式 UI 改造、后台相关业务需求"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "次负责变电基础组件的维护，以及老旧页面的重构和迭代"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "完成变电检修、变电输送、人员变动等三大模块的开发后后续迭代工作"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "在空余时间使用 unocss，重构项目后台"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "align": "justify",
+            "line-height": 1.4,
+            "children": [
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "项目：五级五控"
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "主要负责可视化，督察作业，督察全流程三大模块开发"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "实现离线地图，思极地图的功能开发，包括且不仅限于地图的描边，打点，变电站的显隐等"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "学习基于乾坤框架公司自搭建的微服务平台进行开发"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "align": "justify",
+            "line-height": 1.3,
+            "children": [
+              {
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": ""
+              }
+            ]
+          },
+          {
+            "children": [
+              {
+                "text": "安徽三禾一信息科技有限公司     ",
+                "bold": true,
+                "font-base": {
+                  "fontSize": 15
+                }
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "前端实习生",
+                "italic": true
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 15
+                },
+                "text": "  "
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "                                                                                                       2021.09 - 2023.05"
+              }
+            ],
+            "align": "justify",
+            "line-height": 1.4
+          },
+          {
+            "align": "justify",
+            "line-height": 1.4,
+            "children": [
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": "项目：合锻智能装备运维      "
+              },
+              {
+                "bold": true,
+                "font-base": {
+                  "fontSize": 12
+                },
+                "text": " ",
+                "italic": true
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "children": [
+                  {
+                    "text": "学习公司自搭建基础框架项目组件源码，代码智能平台，快速上手项目",
+                    "font-base": {
+                      "fontSize": 12
+                    }
+                  }
+                ],
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                }
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "基于自搭建基础框架进行快速开发页面和接口对接"
+                  }
+                ],
+                "unordered-list-item": {
+                  "level": 1
+                }
+              }
+            ]
+          },
+          {
+            "unordered-list": true,
+            "children": [
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "在实现主平台到子平台的 sso 单点登录，减少由登录产生的时间消耗，方便用户管理"
+                  }
+                ],
+                "unordered-list-item": {
+                  "level": 1
+                }
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "开发大屏页面，实现自适应，封装无缝滚动组件，封装轮播图等组件"
+                  }
+                ]
+              },
+              {
+                "align": "justify",
+                "line-height": 1.3,
+                "unordered-list-item": {
+                  "level": 1
+                },
+                "children": [
+                  {
+                    "font-base": {
+                      "fontSize": 12
+                    },
+                    "text": "封装hooks，实现代码的服用，减少重复代码"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "children": [],
+      "name": "rich-text"
+    }
+  ],
+  "user": "Czy",
+  "date": "2025-02-11T15:08:18.376Z"
+}
