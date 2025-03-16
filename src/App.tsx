@@ -6,10 +6,10 @@ import { ControlPanel } from './views/control-panel'
 import { EditorPanel } from './views/editor-panel'
 
 export default function App() {
-  const [isRender] = useState(false)
+  const [isRender, setIsRender] = useState(false)
 
   function exportPDF() {
-    console.log(123)
+    setIsRender(true)
   }
 
   return (
@@ -18,7 +18,13 @@ export default function App() {
         <Header exportPDF={exportPDF} />
         <div className="flex h-screen-50 w-full overflow-auto">
           <ControlPanel />
-          <MainPanel />
+          <MainPanel
+            className="h-full flex-1 overflow-auto bg-[#eee]"
+            rowHeight={8}
+            cols={60}
+            minHeight="296mm"
+            allowOverlap={true}
+          />
           <EditorPanel />
         </div>
       </AppProvider>

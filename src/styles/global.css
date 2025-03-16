@@ -18,3 +18,13 @@ code,
 samp {
   font-family: 'Fira Code', Menlo, Consolas, monospace;
 }
+
+/* 针对所有可能的滚动容器 */
+* {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
+
+*::-webkit-scrollbar {
+  display: none !important;
+}
