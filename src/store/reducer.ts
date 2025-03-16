@@ -1,4 +1,6 @@
 import type { LocalComponentConfig } from 'src/types/components'
+import type { Actions } from './actions'
+import { actions } from './actions'
 
 // Component Layout Data
 export interface CLD { user: string, date: Date, children: LocalComponentConfig[] }
@@ -8,9 +10,9 @@ export interface State {
   selectedNode: SelectedNode
 }
 
-export function reducer(state, action) {
+export function reducer(state: State, action: Actions) {
   switch (action.type) {
-    case 'INIT_STATE': {
+    case actions.INIT_STATE: {
       state.cld = action.payload
       break
     }

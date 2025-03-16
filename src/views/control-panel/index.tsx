@@ -1,8 +1,16 @@
-import { useMemo } from 'react'
-import { TEMPLATECONFIG } from '@/utils/loader/template-loader'
+import { useContext, useEffect, useMemo, useState } from 'react'
+import { Modal } from '@arco-design/web-react'
+import { useMemoizedFn } from 'ahooks'
+import { TEMPLATECONFIG, templateLoader } from '@/utils/loader/template-loader'
 import type { TemplateConfig } from '@/utils/loader/template-loader'
+import type { CLD } from '@/store/reducer'
+import { AppContext } from '@/store/provide'
+import { actions } from '@/store/actions'
 
 function ControlPanel() {
+  const [loading, setLoading] = useState(false)
+  const { dispatch } = useContext(AppContext)
+
   const CONFIG: TemplateConfig[][] = useMemo(() => {
     const result: any = []
     TEMPLATECONFIG.forEach((item, index) => {
@@ -27,6 +35,22 @@ function ControlPanel() {
     )
   }
 
+  const loadTemplate = useMemoizedFn((config: TemplateConfig) => {
+    Modal.confirm({
+      title: '警告',
+      content: '确定要加载模版吗，当前的数据将会被覆盖。',
+      confirmLoading: loading,
+      onOk: async () => {
+        setLoading(true)
+        const res: CLD = await templateLoader(config.template)
+        setLoading(false)
+        res.user = 'Afe1'
+        res.date = new Date()
+        dispatch({ type: actions.INIT_STATE, payload: res })
+      },
+    })
+  })
+
   const templatePanel = useMemo(() => {
     return (
       <div>
@@ -34,7 +58,7 @@ function ControlPanel() {
           CONFIG.map((row, rowIdx) => {
             return (
               <div className="mt-[15px] flex items-center" key={rowIdx}>
-                <div className="mx-[15px] w-full cursor-pointer">{getConfig(row[0])}</div>
+                <div className="mx-[15px] w-full cursor-pointer" onClick={() => row[0] && loadTemplate(row[0])}>{getConfig(row[0])}</div>
                 <div className="mx-[15px] w-full">
                   {row[1] && (
                     <div className="cursor-pointer">
@@ -48,10 +72,10 @@ function ControlPanel() {
         }
       </div>
     )
-  }, [])
+  }, [CONFIG, loadTemplate])
 
   return (
-    <div className="w-[260px] overflow-y-auto px-[10px]">
+    <div className="pCONFIGx-[10px] w-[260px] overflow-y-auto">
       {templatePanel}
     </div>
   )

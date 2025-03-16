@@ -11,3 +11,9 @@ export const TEMPLATECONFIG: TemplateConfig[] = [
     template: '/public/templates/zyf/index.json',
   },
 ]
+
+export function templateLoader(src: string) {
+  return window.fetch(src)
+    .then(res => res.json())
+    .catch(() => null)
+}
