@@ -1,3 +1,6 @@
+// eslint-disable-next-line node/prefer-global/process
+const BASE_PATH = process.env.NODE_ENV === 'development' ? '/public' : ''
+
 export interface TemplateConfig {
   name: string
   image: string
@@ -7,8 +10,8 @@ export interface TemplateConfig {
 export const TEMPLATECONFIG: TemplateConfig[] = [
   {
     name: 'afe1',
-    image: '/public/templates/zyf/index.jpg',
-    template: '/public/templates/zyf/index.json',
+    image: `${BASE_PATH}/templates/zyf/index.jpg`,
+    template: `${BASE_PATH}/templates/zyf/index.json`,
   },
 ]
 
