@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import { useMemo } from 'react'
 import { components } from '@/utils/loader'
 
 function Left() {
@@ -22,7 +22,7 @@ function Left() {
                 "
               key={index}
             >
-              {item.icon}
+              {item?.icon}
             </div>
           )
         })

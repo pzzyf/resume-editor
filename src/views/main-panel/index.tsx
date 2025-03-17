@@ -1,4 +1,5 @@
 import { useContext, useState } from 'react'
+import { Empty } from '@arco-design/web-react'
 import { ReferenceLine } from './components/reference-line'
 import { AppContext } from '@/store/provide'
 
@@ -37,7 +38,7 @@ export const MainPanel: React.FC<MainPanelProps> = (props) => {
               )
             : (
                 <>
-                  <div>2</div>
+                  <Empty className="w-full !pt-[50%]" />
                 </>
               )
         }
