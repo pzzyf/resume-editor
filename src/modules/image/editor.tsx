@@ -5,9 +5,9 @@ import { Form, Input, Upload } from '@arco-design/web-react'
 import { IconArrowUp } from '@arco-design/web-react/icon'
 import type { UploadProps } from '@arco-design/web-react/es/Upload'
 import type { EditorPanelFC, LocalComponentConfig } from 'src/types/components'
-import { actions } from 'src/store/actions'
 import { useMemoizedFn } from 'ahooks'
 import { debounce } from 'lodash'
+import { actions } from '@/store/actions'
 import { findOneInNodeTree } from '@/utils/iterator/node-tree-utils'
 
 const ImageEditor: EditorPanelFC = (props) => {
