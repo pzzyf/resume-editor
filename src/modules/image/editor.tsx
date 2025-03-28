@@ -55,7 +55,7 @@ const ImageEditor: EditorPanelFC = (props) => {
           <Input
             addAfter={(
               <Upload
-                className="image-editor-upload"
+                className="flex items-center"
                 accept="image/*"
                 action="xxx/url"
                 beforeUpload={beforeUpload}
