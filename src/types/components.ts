@@ -1,11 +1,11 @@
 import type React from 'react'
-import type { ContextState } from '@/store/provide'
+import type { ContextDispatch, ContextState } from '@/store/provide'
 
 interface ComponentsBase {
-  name: never // 必须重新匹配
-  props?: Record<string, unknown> // 传递给组件的默认`props`
-  style?: React.CSSProperties // 样式配置信息
-  config?: Record<string, unknown> // 配置信息
+  name: never
+  props?: Record<string, unknown>
+  style?: React.CSSProperties
+  config?: Record<string, unknown>
 }
 export interface BaseLocalComponent extends ComponentsBase {
   type: 'local'
@@ -23,15 +23,15 @@ export interface Panel {
     name: string
     getConfig: () => LocalComponentConfig
   } // 组件面板
-  main?: React.FC<{
-    dispatch: any
+  main: React.FC<{
+    dispatch: ContextDispatch
     instance: LocalComponentConfig
     isRender: boolean
     [key: string]: unknown
   }> // 主面板
-  editor?: React.FC<{
+  editor: React.FC<{
     state: ContextState
-    dispatch: any
+    dispatch: ContextDispatch
     [key: string]: unknown
   }> // 编辑面板
 }

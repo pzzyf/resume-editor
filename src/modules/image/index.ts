@@ -1,6 +1,8 @@
 import type { Layout } from 'react-grid-layout'
 import type { BaseLocalComponent, LocalComponent } from 'src/types/components'
 import { ImageControl } from './control'
+import ImageMain from './main'
+import ImageEditor from './editor'
 
 const IMAGE_KEY = 'image' as const
 declare module '../../types/components' {
@@ -33,5 +35,7 @@ export const image: LocalComponent = {
   },
   module: {
     control: ImageControl,
+    main: ImageMain,
+    editor: ImageEditor,
   },
 }
