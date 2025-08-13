@@ -1,5 +1,6 @@
 import React, { createContext } from 'react'
 import { useImmerReducer } from 'use-immer'
+import { reducer } from './reducer'
 
 export interface ContextType {
   state: object
@@ -18,7 +19,7 @@ const defaultContext = {
 
 export const AppContext = createContext<ContextType>(defaultContext)
 export function AppProvider({ children, mode = 'editor' }: { children: React.ReactNode, mode: ContextType['mode'] }) {
-  const [state, dispatch] = useImmerReducer(() => {}, defaultContext)
+  const [state, dispatch] = useImmerReducer(reducer, defaultContext.state)
   return (
     <AppContext.Provider value={{ state, dispatch, mode }}>
       {children}

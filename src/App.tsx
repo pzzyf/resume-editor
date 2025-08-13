@@ -14,7 +14,7 @@ function App() {
         <Header />
         <div className="flex h-[calc(100vh-50px)]">
           <ControlPanel />
-          <MainPanel className="flex-1" />
+          <MainPanel />
         </div>
       </AppProvider>
     </div>

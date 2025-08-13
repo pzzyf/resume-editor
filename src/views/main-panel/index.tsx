@@ -1,10 +1,12 @@
-import type { HTMLAttributes } from 'react'
-import { cn } from '@/utils'
+import { useContext } from 'react'
+import { AppContext } from '@/store/context'
 
-export function MainPanel(props: HTMLAttributes<HTMLDivElement>) {
+export function MainPanel() {
+  const { state } = useContext(AppContext)
+
+  console.log('state :>> ', state)
+
   return (
-    <div className={cn('bg-[#eeeeee] box-border p-4 overflow-y-auto [&::-webkit-scrollbar]:hidden', props.className)}>
-      <div className="bg-[white] h-[1500px] overflow-x-hidden"></div>
-    </div>
+    <div>123</div>
   )
 }
