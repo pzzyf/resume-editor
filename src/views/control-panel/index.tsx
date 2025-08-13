@@ -1,11 +1,13 @@
 import { useContext } from 'react'
 import { AppContext } from '@/store/context'
+import { templateLoader } from '@/utils/loader/template-loader'
 
 export function ControlPanel() {
   const { state, dispatch } = useContext(AppContext)
 
   async function handleClk() {
-    dispatch({ type: 'update', payload: { user: 'afe1', date: new Date(), children: [] } })
+    const res = await templateLoader('/demo/index.json')
+    dispatch({ type: 'update', payload: res })
   }
 
   return (
