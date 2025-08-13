@@ -1,6 +1,6 @@
 export function ControlPanel() {
   return (
-    <div className="w-[200px]">
+    <div className="w-[260px]">
       control panel
     </div>
   )

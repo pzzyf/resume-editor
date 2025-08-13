@@ -3,8 +3,8 @@ import { cn } from '@/utils'
 
 export function MainPanel(props: HTMLAttributes<HTMLDivElement>) {
   return (
-    <div className={cn('', props.className)}>
-      123
+    <div className={cn('bg-[#eeeeee] box-border p-4 overflow-y-auto [&::-webkit-scrollbar]:hidden', props.className)}>
+      <div className="bg-[white] h-[1500px] overflow-x-hidden"></div>
     </div>
   )
 }

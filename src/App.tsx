@@ -9,10 +9,10 @@ function App() {
   const [mode] = useState<ContextType['mode']>('editor')
 
   return (
-    <div className="size-full">
+    <div className="size-full overflow-hidden">
       <AppProvider mode={mode}>
         <Header />
-        <div className="flex">
+        <div className="flex h-[calc(100vh-50px)]">
           <ControlPanel />
           <MainPanel className="flex-1" />
         </div>
