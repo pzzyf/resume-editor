@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "style/func-style": "off",
+    "func-style": ["error", "expression", { "allowArrowFunctions": true }],
+    "style/arrow-function-parens": "off",
+    "style/arrow-spacing": "off"
+  }
+}

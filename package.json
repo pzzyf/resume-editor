@@ -12,9 +12,11 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
+    "immer": "^10.1.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "use-immer": "^0.11.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^5.2.1",
