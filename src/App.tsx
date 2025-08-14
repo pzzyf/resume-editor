@@ -15,7 +15,6 @@ function App() {
         <div className="h-[calc(100%-50px)] w-full overflow-auto flex">
           <ControlPanel />
           <MainPanel
-            className="flex-1 h-[100%] overflow-auto bg-[#eee]"
             cols={60}
             rowHeight={8}
             minHeight="294mm"
