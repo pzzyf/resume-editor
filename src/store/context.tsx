@@ -1,9 +1,10 @@
+import type { State } from './reducer'
 import React, { createContext } from 'react'
 import { useImmerReducer } from 'use-immer'
 import { reducer } from './reducer'
 
 export interface ContextType {
-  state: object
+  state: State
   mode: 'editor' | 'render'
   dispatch: (v: unknown) => void
 }

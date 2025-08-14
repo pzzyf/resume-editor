@@ -11,7 +11,7 @@ export function ControlPanel() {
   }
 
   return (
-    <div className="w-[260px]">
+    <div className="w-[260px] flex-shrink-0 ">
       <div className="size-[100px] bg-blue-300" onClick={handleClk}>click</div>
       <div>{JSON.stringify(state)}</div>
     </div>

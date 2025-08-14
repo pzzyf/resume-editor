@@ -9,12 +9,17 @@ function App() {
   const [mode] = useState<ContextType['mode']>('editor')
 
   return (
-    <div className="size-full overflow-hidden">
+    <div className="size-full">
       <AppProvider mode={mode}>
         <Header />
-        <div className="flex h-[calc(100vh-50px)]">
+        <div className="h-[calc(100%-50px)] w-full overflow-auto flex">
           <ControlPanel />
-          <MainPanel />
+          <MainPanel
+            className="flex-1 h-[100%] overflow-auto bg-[#eee]"
+            cols={60}
+            rowHeight={8}
+            minHeight="294mm"
+          />
         </div>
       </AppProvider>
     </div>
